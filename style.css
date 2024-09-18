@@ -115,29 +115,29 @@ body {
 
 /* Promotional Banner */
 .promo-banner {
-    background-color: #00a87e; /* Set the background color to green */
-    padding: 10px 0;           /* Padding to create some spacing around the content */
-    text-align: center;        /* Center the text and icon */
-    color: white;              /* Set the text color to white */
-    font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
-    font-size: 16px;           /* Set font size */
+    background-color: #00a87e; 
+    padding: 10px 0;           
+    text-align: center;        
+    color: white;              
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px;          
 }
 
 .promo-content {
     display: flex;             /* Flexbox to align icon and text */
-    justify-content: center;   /* Center the content horizontally */
-    align-items: center;       /* Vertically center the content */
+    justify-content: center;   
+    align-items: center;       
 }
 
 .promo-icon {
-    width: 40px;               /* Set the width of the icon */
+    width: 40px;               
     height: auto;              /* Keep aspect ratio of the icon */
-    margin-right: 15px;        /* Add some space between the icon and the text */
+    margin-right: 15px;        
 }
 
 .promo-banner span {
-    max-width: 900px;          /* Limit the width of the text */
-    line-height: 1.5;          /* Adjust line height for better readability */
+    max-width: 900px;          
+    line-height: 1.5;          
 }
 
 /* Slideshow Styles */
@@ -145,7 +145,7 @@ body {
     position: relative;
     max-width: 100%;
     margin: auto;
-    margin-top: 50px; /* Spacing from navbar */
+    margin-top: 50px; 
 }
 
 .slide {
@@ -211,7 +211,7 @@ color: black;
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 20%;
+    top: 50%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -232,25 +232,6 @@ color: black;
     background-color: rgba(0,0,0,0.8);
 }
 
-
-
-/* Dots */
-.dots {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-/* .dot {           //Responsible for the three dots
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-} */
 
 .active, .dot:hover {
     background-color: #717171;
@@ -382,6 +363,56 @@ color: black;
 
 
 
+/* New to MOO Section Styling */
+.new-to-moo-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.new-to-moo-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.new-to-moo-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+.product-item {
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 400px; /* Max width of the product images */
+    margin-bottom: 15px;
+}
+
+.product-item a {
+    text-decoration: none;
+    color: #0a834e;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.product-item a:hover {
+    color: #07693c; /* Darker green on hover */
+}
 
 
 
@@ -404,6 +435,132 @@ color: black;
 
 
 
+
+
+/* Share Your Own Creations Section */
+.share-creations {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.share-creations h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.share-creations p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.share-creations span {
+    color: #0a834e;
+    font-weight: bold;
+}
+
+/* Creations Gallery */
+.creations-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.creation-item {
+    flex-basis: 22%;
+}
+
+.creation-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Container to center Brand More Section */
+.brand-more-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+}
+
+/* Brand More Section */
+.brand-more-section {
+    position: relative;
+    max-width: 1200px; 
+    width: 100%;
+    height: 400px; 
+}
+
+/* Background Image */
+.brand-more-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the section */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Content that overlays on top of the image */
+.brand-more-content {
+    position: relative;
+    z-index: 2; /* Ensures it's above the image */
+    text-align: center;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 120px; 
+}
+
+.brand-more-content h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.brand-more-content p {
+    font-size: 16px;
+    color: #122E1D;
+    margin-bottom: 40px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-buttons button {
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.check-plans {
+    background-color: #122E1D;
+    color: #fff;
+}
+
+.talk-us {
+    background-color: #fff;
+    border: 1px solid #0a834e;
+    color: #0a834e;
+}
+
+.check-plans:hover,
+.talk-us:hover {
+    opacity: 0.9;
+}
 
 
 
@@ -413,7 +570,7 @@ color: black;
 
 /* Footer Styles */
 footer {
-    background-color: #f8f9fa;
+    background-color: white;
     padding: 40px;
     font-family: Arial, sans-serif;
     color: #555;
@@ -457,6 +614,47 @@ footer {
     font-size: 12px;
     color: #888;
 }
+
+/* Container for better layout and spacing */
+.language-selection-container {
+    display: inline-block;
+    position: relative;
+}
+
+/* Styling for the <select> dropdown */
+.language-selection {
+    appearance: none; /* Remove default select appearance */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 40px 10px 15px; /* Space for flag and dropdown arrow */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Style the dropdown arrow */
+.language-selection-container::after {
+    content: "▾"; 
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent click on the arrow */
+    font-size: 12px;
+    color: #555;
+}
+
+/* Remove the native dropdown arrow on hover */
+.language-selection:hover {
+    border-color: #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 
 /* Social Media and TrustPilot Rating Section */
 .social-rating-section {
@@ -530,54 +728,71 @@ footer {
     text-decoration: underline;
 }
 
+
+/* Styling for the horizontal line */
+.footer-separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100%;
+}
+
 /* Legal Section */
 .footer-legal {
-    text-align: center;
-    margin-top: 30px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
     font-size: 12px;
     color: #888;
 }
 
-.footer-legal-links {
-    margin-top: 10px;
-}
-
-.footer-legal-links a {
-    margin-right: 15px;
-    color: #555;
-    text-decoration: none;
-}
-
-.footer-legal-links a:hover {
-    text-decoration: underline;
-}
-
-
-
-.legal-banner {
-    background-color: white; /* Set the background color to green */
-    padding: 10px 0;           /* Padding to create some spacing around the content */
-    text-align: center;        /* Center the text and icon */
-    color: white;              /* Set the text color to white */
-    font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
-    font-size: 16px;           /* Set font size */
-}
-
-.legal-content {
-    display: flex;             /* Flexbox to align icon and text */
-    justify-content: center;   /* Center the content horizontally */
-    align-items: center;       /* Vertically center the content */
+.legal-info {
+    display: flex;
+    align-items: center;
+    color: black;
 }
 
 .legal-icon {
-    width: 40px;               /* Set the width of the icon */
-    height: auto;              /* Keep aspect ratio of the icon */
-    margin-right: 15px;        /* Add some space between the icon and the text */
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
 }
 
-.legal-banner span {
-    max-width: 900px;          /* Limit the width of the text */
-    line-height: 1.5;          /* Adjust line height for better readability */
+.legal-links {
+    display: flex;
+    gap: 15px;
+}
+
+.legal-links a {
+    text-decoration: none;
+    color: #0a834e;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+/* Chatbox Icon */
+.chatbox-icon {
+    position: fixed;
+    bottom: 20px;  
+    right: 20px;   
+    background-color: #0a834e; 
+    border-radius: 50%;  /* Makes the icon circular */
+    padding: 15px;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow for a raised effect */
+    cursor: pointer;     
+    z-index: 1000;       /* Ensures it's above other elements */
+    transition: transform 0.3s ease;  /* Smooth animation on hover */
+}
+
+.chatbox-icon:hover {
+    transform: scale(1.1);  /* Slightly enlarges on hover */
+}
+
+.chatbox-icon img {
+    width: 30px;    /* Size of the icon */
+    height: 30px;
+    display: block;
 }
