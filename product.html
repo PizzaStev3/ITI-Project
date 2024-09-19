@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - MOO Twist Pen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <!-- Product Page Container -->
+    <div class="product-container">
+        <!-- Product Image Section -->
+        <div class="product-images">
+            <img src="moo-pen.webp" alt="MOO Twist Pen" class="main-image">
+            <div class="thumbnail-images">
+                <img src="pen-hand.webp" alt="Pen in Hand">
+                <img src="pen-tip.webp" alt="Pen Tip">
+                <img src="pen-letter.webp" alt="Pen letter">
+                <img src="pen-size.webp" alt="Pen size">
+            </div>
+        </div>
+
+        <!-- Product Details Section -->
+        <div class="product-details">
+            <h1>MOO Twist Pen</h1>
+            <p class="description">
+                The twist is it’s the only pen you’ll want to use. We designed this aluminum ballpoint pen to be incredible to write with as well as a brilliant showcase for your brand. It’s made from recyclable aluminum, is the perfect weight for your hand, and has a unique twist-action mechanism.
+            </p>
+
+            <div class="shipping-info">
+                <p><strong>Shipping info:</strong></p>
+                <p>Standard Domestic: Estimated 12-15 business days</p>
+                <p>Express Domestic: Estimated 11 business days</p>
+            </div>
+
+            <div class="product-options">
+                <label for="color">Choose your MOO Twist Pen Color:</label>
+                <div id="color" class="color-options">
+                    <div class="color-option aluminum selected"></div>
+                    <div class="color-option black"></div>
+                    <div class="color-option brown"></div>
+                    <div class="color-option navy"></div>
+                </div>
+                
+                <label for="customization">Customization:</label>
+                <select id="customization">
+                    <option>One Sided Engraving</option>
+                    <option>Two Sided Engraving</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <select id="quantity">
+                    <option>10 items</option>
+                    <option>20 items</option>
+                    <option>30 items</option>
+                </select>
+            </div>
+
+            <div class="price-total">
+                <p>Total price: <strong>$250.00</strong> ($25 per item)</p>
+                <button class="customize-button">Start customizing</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How it works</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="https://eu-images.contentstack.com/v3/assets/blt128c52d5bd39c039/blt2251b8fe646c26bb/66c5c64da19297e6240910c2/0653WF-Icon-100x82-Step-1_(2).svg" alt="Choose">
+                <h3>Choose</h3>
+                <p>Pick from five pen colors.</p>
+            </div>
+            <div class="step">
+                <img src="https://eu-images.contentstack.com/v3/assets/blt128c52d5bd39c039/bltb106786fb34ab150/66c5c64d9aa4035c8a26dd6f/0653WF-Icon-100x82-Step-2.svg" alt="Upload">
+                <h3>Upload</h3>
+                <p>Upload your design along one side of the pen barrel. <a href="#">Our guidelines</a> can help you.</p>
+            </div>
+            <div class="step">
+                <img src="https://eu-images.contentstack.com/v3/assets/blt128c52d5bd39c039/blte8e2ae3df3019141/66c5c64d6356f77214682181/0653WF-Icon-100x82-Step-3.svg" alt="Adjust">
+                <h3>Adjust</h3>
+                <p>Position and size your design until you're 100% happy.</p>
+            </div>
+            <div class="step">
+                <img src="https://eu-images.contentstack.com/v3/assets/blt128c52d5bd39c039/blt0e6adce179987e69/66c5c64d68743b62159d8b5d/0653WF-Icon-100x82-Step-4.svg" alt="Order">
+                <h3>Order</h3>
+                <p>Place your order and share your creation with the world.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Slideshow Section -->
+<div class="slideshow-container">
+    <div class="slide fade">
+        <img src="blue-pen.webp" alt="Blue Twist Pen">
+        <div class="text-content">
+            <h2>MOO Twist Pens</h2>
+            <p>Designed for every writing style - <br> and every brand, too.</p>
+        </div>
+    </div>
+    <div class="slide fade">
+        <img src="black-pen.webp" alt="Black Twist Pen">
+        <div class="text-content">
+            <h2>MOO Twist Pens</h2>
+            <p>Designed for every writing style - <br> and every brand, too.</p>
+        </div>
+    </div>
+    <div class="slide fade">
+        <img src="white-pen.webp" alt="White Twist Pen">
+        <div class="text-content">
+            <h2>MOO Twist Pens</h2>
+            <p>Designed for every writing style - <br> and every brand, too.</p>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- Next/Prev Buttons -->
+    <a class="prev-2" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next-2" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/Indicators -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+ <br>
+    
+        <!-- Footer Section -->
+<footer class="custom-footer">
+    <div class="footer-container">
+        <!-- Left Section -->
+        <div class="footer-left">
+            <h3>Need a hand?</h3>
+            <p>Chat with us for quick questions & order support. Or Email us and we'll reply by the end of the next working day.</p>
+            <div class="footer-contact">
+                <a href="#" class="footer-chat">Chat</a>
+                <a href="#" class="footer-email">Email</a>
+            </div>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="footer-middle">
+            <h3>Frequently asked</h3>
+            <ul>
+                <li><a href="#">Turnaround times for Branded Merchandise</a></li>
+                <li><a href="#">The process after ordering Branded Merchandise</a></li>
+                <li><a href="#">Problems with your Branded Merchandise order</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section -->
+        <div class="footer-right">
+            <ul>
+                <li><a href="#">Samples of Branded Merchandise</a></li>
+                <li><a href="#">Custom Twist Pen Specifications</a></li>
+                <li><a href="#">Custom Twist Pen templates to download</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="footer-bottom">
+        <div class="footer-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Fonts</a>
+            <a href="#">Sitemap</a>
+            <a href="#">Company Information</a>
+            <a href="#">Do not sell or share my personal information</a>
+            <a href="#">Cookie Preferences</a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; MOO Inc., 25 Fairmount Avenue, East Providence, RI 02914, USA - Registered in the United States of America</p>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="Facebook"></a>
+            <a href="#"><img src="https://img.icons8.com/?size=100&id=59813&format=png&color=FFFFFF" alt="Instagram"></a>
+            <a href="#"><img src="https://img.icons8.com/?size=100&id=111056&format=png&color=FFFFFF" alt="Other"></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
