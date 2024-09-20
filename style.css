@@ -1,4 +1,7 @@
-/* Basic Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -401,7 +404,7 @@ color: black;
 
 .product-item img {
     width: 100%;
-    max-width: 400px; /* Max width of the product images */
+    max-width: 400px; 
     margin-bottom: 15px;
 }
 
@@ -413,7 +416,7 @@ color: black;
 }
 
 .product-item a:hover {
-    color: #07693c; /* Darker green on hover */
+    color: #07693c; 
 }
 
 
@@ -1265,7 +1268,7 @@ h1 {
 }
 
 .step a {
-    color: #00bfa5;
+    color: #008558;
     text-decoration: none;
 }
 
@@ -1598,7 +1601,7 @@ h1 {
 }
 
 .products-section3 a {
-    color: #00A879; 
+    color: #008558; 
     text-decoration: none;
 }
 
@@ -1704,7 +1707,7 @@ h1 {
   .button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #00AA72;
+    background-color: #008558;
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -1712,7 +1715,7 @@ h1 {
   }
   
   .button:hover {
-    background-color: #00AA72;
+    background-color: #008558;
   }
   
   
